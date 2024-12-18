@@ -16,7 +16,6 @@ sphinx:
   configuration: docs/source/conf.py
   fail_on_warning: true
 
-# Makes it possible to convert document to pdf.
 formats:
   - pdf
   - epub
