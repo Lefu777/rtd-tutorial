@@ -14,5 +14,10 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
+  # Build errors or warnings are detected.
   fail_on_warning: true
-  
+
+# Makes it possible to convert document to pdf.
+formats:
+  - pdf
+  - epub
